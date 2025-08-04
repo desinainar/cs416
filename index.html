@@ -636,8 +636,7 @@
                 const annotation = container.append('div')
                     .attr('class', 'annotation top')
                     .style('left', `${xScale(event.date) + margin.left + 118}px`)
-                    .style('top', `${event.y}px`)
-                    .html(`<strong>${event.label}</strong><br/>Key milestone in pandemic timeline`);
+                    .style('top', `${event.y}px`);
             });
             
             // Add y-axis label
